@@ -1,0 +1,82 @@
+* { box-sizing: border-box; }
+
+body { font-family: 'Mulish', sans-serif; }
+
+.carousel {
+  background: #fdfdfd;
+}
+
+
+.xyz{
+  transform: scale(0.95);
+  width: 15%;
+  transition: transform 0.5s;
+  margin-right: 10px;
+  border-radius: 16px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .xyz {
+    width: 18%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .xyz {
+    width: 22%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .xyz {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .xyz {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .xyz {
+    width: 31%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .xyz {
+    width: 42%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .xyz {
+    width: 44%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .xyz {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .xyz {
+    width: 60%;
+  }
+}
+
+.xyz:hover{
+  transform: scale(1);
+}
+
+.xyz:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}

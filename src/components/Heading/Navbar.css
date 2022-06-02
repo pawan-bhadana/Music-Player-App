@@ -1,0 +1,31 @@
+.navbar a{
+    text-transform: capitalize;
+    font-size: 1.25rem;
+}
+
+.my-link:hover{
+    color: #524277 !important;
+}
+
+.my-link{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.my-link::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #1d4762;
+    transition: width 1s;
+}
+
+.my-link:hover::after{
+    width: 100%;
+    transition: width 1s;
+}
+
+.navbar-brand{
+    font-size: 1.4rem !important;
+}

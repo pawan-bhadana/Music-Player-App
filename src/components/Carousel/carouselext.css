@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  transform: scale(0.980);
+  width: 50%;
+  margin-right: 10px;
+  border-radius: 16px;
+  transition: transform 1s;
+}
+
+.carousel-cell:hover {
+  transform: scale(1);
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
